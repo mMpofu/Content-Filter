@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <disable-camera />
+        <disable-keyguard-features />
+        <force-lock />
+        <watch-login />
+        <reset-password />
+        <expire-password />
+        <encrypted-storage />
+        <disallow-config-vpn />
+    </uses-policies>
+    <receiver-declared-intents>
+        <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+    </receiver-declared-intents>
+</device-admin>

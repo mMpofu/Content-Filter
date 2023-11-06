@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Content Fliter</string>
+    <string name="violence">Violence</string>
+    <string name="explicit_content">Explicit Content</string>
+    <string name="apply_filters">Apply Filters</string>
+    <string name="block_vpn">Block VPN</string>
+</resources>
